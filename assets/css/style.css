@@ -44,7 +44,7 @@ header {
 #logo {
     background-color: #4aaaa5;
     color: white;
-    padding: 10px;
+    padding: 5px;
     float: left;
     width: 20%;
     margin-left: 150px;
@@ -59,8 +59,8 @@ body {
 }
 #main-bio {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 160px 150px 100px 150px;
-    padding: 30px 40px 40px 40px;
+    margin: 130px 150px 100px 150px;
+    padding: 20px 40px 40px 40px;
     border: 2px solid #dddddd;
     background-color: #ffffff;
     width: 960px;
@@ -76,6 +76,9 @@ body {
     position: sticky;
     }
 
+h1 {
+    color: white;
+}
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
