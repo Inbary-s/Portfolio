@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    top: 0;
+    border-bottom-color: #cccccc;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20%;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+body {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: image("assets/images/trees.png");
+    width: 960px;
+}
+
+#footer {
+    padding: 10px;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
