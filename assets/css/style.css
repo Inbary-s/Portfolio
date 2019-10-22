@@ -51,13 +51,17 @@ header {
     text-align: center;
 }
 
+#logo:hover {
+    background-color: #39fdf3;
+}
+
 body {
     background-image: url('../images/trees.png');
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;    
     color: #777777;
 }
-#main-bio {
+#main {
     font-family: Arial, Helvetica, sans-serif;
     margin: 130px 150px 100px 150px;
     padding: 20px 40px 40px 40px;
@@ -76,9 +80,34 @@ body {
     position: sticky;
     }
 
+#box {
+    border: thin solid #777777;
+    padding-left: 15px;
+}
+
+#box-empty {
+    border: thin solid #777777;
+    padding: 100px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+}
+
+button:hover {
+    background-color: #39fdf3;
+}
+
 h1 {
     color: white;
 }
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -87,8 +116,45 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-weight: lighter;
+}
+
 a {
     color: #777777;
     font-weight: 10;
     text-decoration: none;
+}
+
+a:hover {
+    color: #39fdf3;
+}
+
+p {
+    line-height: 1;
+}
+
+input[type=text] {
+    padding: 5px;
+    width: 100%;
+}
+
+input[type=email] {
+    padding: 5px;
+    width: 100%; 
+}
+
+#message {
+    padding: 5px;
+    width: 100%;
+    max-lines: 10;
+}
+
+input {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ ::placeholder {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
