@@ -10,23 +10,32 @@ header {
 }
 .menu {
     margin-right: 200px;
+    float: right;
 }
 
 #about{
-    float: right;
+    position: absolute;
+    right: 330px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+    margin: 40px;
+    padding-right: 30px;
+    border-right: 1px solid #cccccc;
     color: #777777;
 }
 
 #portfolio{
-    float: right;
+    position: absolute;
+    right: 210px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+    margin: 40px;
+    padding-right: 30px;
+    border-right: 1px solid #cccccc;
     color: #777777;
 }
+
 #contact{
-    float: right;
+    position: absolute;
+    right: 130px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 40px;
     color: #777777;
@@ -51,7 +60,7 @@ body {
 #main-bio {
     font-family: Arial, Helvetica, sans-serif;
     margin: 160px 150px 100px 150px;
-    padding: 40px 40px 40px 40px;
+    padding: 30px 40px 40px 40px;
     border: 2px solid #dddddd;
     background-color: #ffffff;
     width: 960px;
@@ -70,8 +79,9 @@ body {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    border-bottom-color: #cccccc;
-    border-bottom-width: 2px;
+    border-bottom:3px solid #cccccc;
+    padding-bottom: 40px;
+    font-size: 30px;
 }
 
 a {
