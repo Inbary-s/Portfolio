@@ -69,8 +69,7 @@ body {
     border: 2px solid #dddddd;
     background-color: #ffffff;
     width: 960px;
-    min-height: 380px;
-}
+ }
 #footer {
     padding: 10px;
     background-color: #666666;
@@ -184,4 +183,10 @@ input {
 
 .project_text:hover{
     background-color: #39fdf3;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
